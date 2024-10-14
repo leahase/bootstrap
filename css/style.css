@@ -6,11 +6,11 @@ header {
 }
 
 .hero-container {
-    background-image: url('https://as2.ftcdn.net/v2/jpg/01/82/88/45/1000_F_182884554_QwMxZ85UlvwBq6YrJCcTJKPlB2sxwlWC.jpg');
+    background-image: url(/img/nature.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     justify-content:center;
     align-items: center;
@@ -41,6 +41,8 @@ aside {
     padding: 10px; 
     background-color: rgb(237, 213, 177);
     height: auto;
+    display: flex;
+    justify-content: center;
     
     
 
@@ -50,4 +52,21 @@ aside {
     background-color: rgb(218, 183, 132);
     margin-top: 0px;
     
+}
+.col{
+    border-radius: 20px;
+}
+.footer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+a {
+    cursor: pointer;
+}
+
+.button{
+    color: rgb(205, 213, 255);
+   
 }
