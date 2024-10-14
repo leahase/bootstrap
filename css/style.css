@@ -1,5 +1,8 @@
 header {
-    border: 2px solid beige;
+    border: 2px solid rgb(214, 214, 65);
+}
+.container-fluid {
+    background-color: rgb(237, 213, 177);
 }
 
 .hero-container {
@@ -29,3 +32,22 @@ aside {
     background-color: rgba(203, 203, 182, 0.741);
 }
 
+.card {
+    height: auto;
+    color:rgb(103, 139, 103)
+}
+
+.text-container {
+    padding: 10px; 
+    background-color: rgb(237, 213, 177);
+    height: auto;
+    
+    
+
+}
+.form-control {
+    border: 3px solid rgb(190, 125, 125);
+    background-color: rgb(218, 183, 132);
+    margin-top: 0px;
+    
+}
