@@ -1,0 +1,31 @@
+header {
+    border: 2px solid beige;
+}
+
+.hero-container {
+    background-image: url('https://as2.ftcdn.net/v2/jpg/01/82/88/45/1000_F_182884554_QwMxZ85UlvwBq6YrJCcTJKPlB2sxwlWC.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(103, 139, 103);
+    background-color: rgb(226, 238, 238);
+    opacity: 0.8;;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+}
+aside {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgba(203, 203, 182, 0.741);
+}
+
