@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(231, 187, 130);
+}
 header {
     border: 2px solid rgb(214, 214, 65);
 }
@@ -30,6 +33,7 @@ aside {
     justify-content: center;
     gap: 50px;
     background-color: rgba(203, 203, 182, 0.741);
+    margin-bottom: 10px;
 }
 
 .card {
@@ -68,5 +72,4 @@ a {
 
 .button{
     color: rgb(205, 213, 255);
-   
 }
